@@ -20,6 +20,14 @@ java-1.8.0-openjdk
 - install Tomcat via makefile
 - study apache tomcat
 
+## Starting Tomcat
+
+- cd /usr/local/tomcat9/bin
+- startup.sh
+
+## geoserver
+- install geoserver from the makefile
+
 ## Nodejs
 
 ## Breakdown Other Install Items
