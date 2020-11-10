@@ -9,6 +9,13 @@
 	- FAIL permission problem - BUMMER!
 
 
+## Java
+- cd pkg
+- make java
+- java -version
+```
+java-1.8.0-openjdk
+```
 ## Tomcat
 - install Tomcat via makefile
 - study apache tomcat
