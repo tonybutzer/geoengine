@@ -1,5 +1,12 @@
+help:
+	docker swarm init
+
 up:
 	docker-compose up
+
+
+stop-tomcat:
+	/usr/local/tomcat9/bin/shutdown.sh
 
 
 install-compose:
