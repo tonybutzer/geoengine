@@ -29,6 +29,15 @@ nodejs:
 	#sudo nvm install node
 	#node -e "console.log('Running Node.js ' + process.version)"
 
+docker:
+	# Install Docker
+	# Start the Docker Service
+	# Add the ec2-user to the docker group so you can execute Docker commands without using sudo.
+	sudo yum update -y
+	sudo yum install docker -y
+	sudo service docker start
+	sudo usermod -a -G docker ec2-user
+
 
 publish: 
 	(cd .. ; make publish)
